@@ -6,8 +6,8 @@ POST http://localhost:3000/insert/
 Content-Type: application/json
 
 {
-  "firstname": "christopher",
-  "lastname":"phillips",
+  "firstname": "christophe",
+  "lastname":"phillis",
   "email": "hristy@123@hmail",
   "message" : "bussiness",
   "addtional" : "startup idea"

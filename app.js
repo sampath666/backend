@@ -53,8 +53,9 @@ app.post("/insert/", async (request, response) => {
     INSERT INTO  form
     VALUES ('${firstname}','${lastname}','${email}','${message}','${addtional}');
     `;
+  console.log(request.body);
   const player = await database.run(createPlayerQuery);
-  response.send("Player Added to Team");
+  response.send(firstname);
 });
 
 app.post("/players/", async (request, response) => {
