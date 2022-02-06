@@ -1,0 +1,14 @@
+###
+GET http://localhost:3000/forms/
+
+###
+POST http://localhost:3000/insert/ 
+Content-Type: application/json
+
+{
+  "firstname": "christopher",
+  "lastname":"phillips",
+  "email": "hristy@123@hmail",
+  "message" : "bussiness",
+  "addtional" : "startup idea"
+}
